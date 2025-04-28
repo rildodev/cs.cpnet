@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: url('https://csmarket.gg/blog/wp-content/uploads/2024/04/Dust_II_CS-GO.webp') no-repeat center center fixed;
+  background-size: cover;
+  cursor: none;
+}
+
+#gameArea {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#target {
+  position: absolute;
+  width: 160px;
+  height: auto;
+}
+
+#gun {
+  position: absolute;
+  width: 240px;
+  height: auto;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+#score {
+  width: 160px;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: white;
+  background-color: chocolate;
+  text-shadow: 2px 2px 4px #000;
+}
